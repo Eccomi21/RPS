@@ -9,7 +9,9 @@ def clear():
 
 def start():  # the starting point for every game
 
+    clear()
     print("Welcome to rock, paper, scissors!")
+    time.sleep(3)
 
     round = 1  # set round count to 1
     scoreH = 0  # define variable and set the score of the player to 0
